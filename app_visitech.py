@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-# --- LÓGICA DO SEU SISTEMA ---
+# --- LÓGICA DO SISTEMA ---
 def processar_cadastro():
     nome = entry_nome.get().strip()
     cidade = entry_cidade.get().strip()
