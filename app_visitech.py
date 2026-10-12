@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-# --- LÓGICA DO SISTEMA ---
+# --- LÓGICA DO SEU SISTEMA ---
 def processar_cadastro():
     nome = entry_nome.get().strip()
     cidade = entry_cidade.get().strip()
@@ -17,7 +17,7 @@ def processar_cadastro():
         messagebox.showwarning("Aviso", "Preencha o Nome e a Cidade!")
         return
 
-    # Lógica de tomada de decisão (Sua regra de negócio)
+    # Lógica de tomada de decisão (Regra de negócio)
     if mensalidade >= 200:
         tipo_cliente = "Cliente Premium 💎"
     elif mensalidade >= 100:
